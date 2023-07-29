@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN TESTE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 style="font-size: 30px;">Acesse sua conta</h1>
+        <form id="form"> 
+            <label for="email" class="form-label mt-1">E-mail:</label>
+            <input type="email" name="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+            <label for="senha" class="form-label mt-3">Senha:</label>
+            <input type="password" name="senha" class="form-control" id="senha" placeholder="Digite sua senha">
+            <p>Gostaria de efetuar o cadastro? <a href="cadastroUsuario.html" class="col-md-12">Cadastre-se aqui</a></p>
+            
+           
+            <button type="submit" class="btn btn-outline-info mt-3">Acessar</button>
+        </form>
+    </div>
+
+
+<!-- 1- mostrar a lista de usuarios no console 
+        <div id="lista"></div> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<!-- sempre deixar o arquivo que contém os dados na parte de cima (antes dos outros arquivos JS) caso contrário não será possível acessa-los -->    
+    <script src="dados.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
